@@ -55,4 +55,4 @@ sudo sed -i '/~/s/^#//g' /etc/rsyslog.d/20-ufw.conf
 sudo /etc/init.d/rsyslog restart
 
 # set timezone to UTC
-sudo timedatectl set-timezone UTC
+sudo timedatectl set-timezone America/New_York
